@@ -7,7 +7,11 @@ class ModalButton extends Component {
   }
 
   showModal = () => {
+    this.setState({isModalShow: true})
+  }
 
+  hideModal = () => {
+    this.setState({isModalShow: false})
   }
 
   render() {

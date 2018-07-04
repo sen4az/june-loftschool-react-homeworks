@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import CardNumberInput from './CardNumberInput';
 
 class CardNumberHolder extends Component {
   state = {
@@ -6,7 +7,7 @@ class CardNumberHolder extends Component {
   }
   render() {
     return (
-      null
+      <CardNumberInput />
     );
   }
 }

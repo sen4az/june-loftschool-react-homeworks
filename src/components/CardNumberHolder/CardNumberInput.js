@@ -2,8 +2,22 @@ import React, {Component} from 'react';
 
 class CardNumberInput extends Component {
 
+  state = {
+    
+  }
+
+  normalize = () => {
+
+  }
+
+  componentWillReceiveProps = () => {
+
+  }
+
   render() {
-    return null;
+    return(
+      <input type="text"/>
+    )
   }
 }
 
